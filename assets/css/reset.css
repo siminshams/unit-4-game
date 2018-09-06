@@ -1,0 +1,76 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 100%; */
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body{
+   
+    background-image: url("../images/Background.jpg");
+}
+p{
+    font-size: 20px;
+}
+.main-body{
+    background-color:wheat;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.header{
+    color: white;
+    background-color: brown;
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.h3{
+   background-color: green;
+   margin-bottom: 15px;
+   padding: 20px;
+   height: 200px;
+}
+.score{
+    background-color: blue;
+    margin:0 0 15px 15px;
+}
+.r5{
+    background-color:  rgb(0, 128, 64);
+    padding: 20px;
+    margin:15px 0 15px 0;
+}
+
+.r6{
+    background-color: rgb(117, 0, 128);
+    height: 200px;
+    margin: 0 0 25px 0;
+
+}
+.image{
+    background-color: whitesmoke;
+    margin: 0 15px 0 0;
+}
+
+.size{
+    width: 75%;
+}
+
+img{
+    width: 100px;
+    height: 100%;   
+}
