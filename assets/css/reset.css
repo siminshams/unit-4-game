@@ -23,11 +23,9 @@ time, mark, audio, video {
 body{
    
     background-image: url("../images/Background.jpg");
-    font-size: 30px;
-}
-/* p{
     font-size: 20px;
-} */
+}
+
 .main-body{
     background-color:wheat;
     padding: 20px;
@@ -59,10 +57,11 @@ body{
 
 .r6{
     background-color: rgb(117, 0, 128);
-    height: 200px;
+    height: 150px;
     font-size: 40px;
     font-weight: bold;
     padding: 20px 0 0 20px;
+    margin: 0  0 15px 0;
 }
 .image{
     background-color: whitesmoke;

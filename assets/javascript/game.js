@@ -81,7 +81,7 @@ $(document).ready(function () {
         }
     });
 
-    var yellow = $("#yellow").click(function () {
+    $("#yellow").click(function () {
         totalScore += num4;
         $("#score").text(totalScore);
         if (totalScore == random) {
