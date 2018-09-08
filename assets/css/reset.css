@@ -14,65 +14,72 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	/* font-size: 100%; */
 	font: inherit;
 	vertical-align: baseline;
 }
 
-
 body{
    
     background-image: url("../images/Background.jpg");
-    font-size: 20px;
+    font-size: 20px;    
 }
 
 .main-body{
     background-color:wheat;
     padding: 20px;
     margin-bottom: 15px;
+    color: rgb(5, 5, 100);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header{
     color: white;
     background-color: brown;
-    padding: 20px;
-    font-size: 25px;
+    padding: 30px;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 .h3{
-   background-color: green;
+   background-color:  rgb(142, 180, 37);
    margin-bottom: 15px;
    padding: 20px;
    height: 200px;
+   font-weight: bold;
+   color: rgb(73, 7, 7);
 }
 .score{
     background-color: rgb(0, 174, 255);
     margin:0 0 15px 15px;
+    padding: 20px 0 0 20px;
+    font-weight: bold;
 }
 .r5{
-    background-color:  rgb(0, 128, 64);
+    background-color:  rgb(44, 151, 30);
     padding: 20px;
     margin:15px 0 15px 0;
+    font-weight: bold;
      
 }
 
 .r6{
-    background-color: rgb(117, 0, 128);
+    background-color: rgb(44, 151, 30);
     height: 150px;
     font-size: 40px;
     font-weight: bold;
     padding: 20px 0 0 20px;
     margin: 0  0 15px 0;
 }
-.image{
-    background-color: whitesmoke;
-   
-}
 
 .size{
-    width: 75%;
+    width: 100px;
+    height: 100%; 
+    padding: 0 15px 0 0;     
 }
 
-img{
-    width: 100px;
-    height: 100%;   
+@media screen and (max-width: 640px){
+	img{
+        width:70% !important;
+        
+	}
+	
 }
