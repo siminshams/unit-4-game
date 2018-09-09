@@ -14,6 +14,7 @@ $(document).ready(function () {
     var num2 = Math.floor(Math.random() * 11 + 1);
     var num3 = Math.floor(Math.random() * 11 + 1);
     var num4 = Math.floor(Math.random() * 11 + 1);
+    console.log()
     
     $("#wins").text(wins);
     $("#losses").text(losses);
